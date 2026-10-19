@@ -1,24 +1,48 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# todoapp
+# HƯỚNG DẪN CÀI ĐẶT VÀ CHẠY ỨNG DỤNG
 
-A new Flutter project.
+## 1. Giới thiệu
 
-## Getting Started
+Dự án được xây dựng bằng Flutter và ngôn ngữ lập trình Dart.
 
-This project is a starting point for a Flutter application.
+Ứng dụng hỗ trợ chạy trên các hệ điều hành:
+- Windows
+- macOS
 
-A few resources to get you started if this is your first Flutter project:
+## 2. Yêu cầu trước khi cài đặt
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Trước khi chạy dự án, cần cài đặt:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# N02_KTPM_LT5
->>>>>>> 79f70fab6fd51575b81fb7c94ae3c2ad9b243468
-=======
+- Flutter SDK
+- Dart SDK (được tích hợp trong Flutter SDK)
+- Visual Studio Code (hoặc IDE tương đương)
 
->>>>>>> c7355dcd1353867050a084447ee0834f5ddce89c
+Kiểm tra môi trường Flutter bằng lệnh:
+
+```bash
+flutter doctor
+
+---
+
+## Một số lưu ý quan trọng
+
+1. Trên Windows, cần có Visual Studio với workload **Desktop development with C++** nếu chạy bản Windows.
+2. Trên macOS, cần Xcode để biên dịch ứng dụng macOS.
+3. Không cần cài Android Studio nếu chỉ chạy ứng dụng trên Windows và macOS.
+4. Không cần cài Google Chrome nếu không chạy ứng dụng trên nền tảng Web.
+5. Tên thư mục sau khi clone có thể khác nếu bạn đổi tên repository; hãy điều chỉnh lệnh `cd` tương ứng.
+
+#######. Bảng tổng hợp lệnh thường dùng
+
+| Lệnh | Mục đích |
+|---|---|
+| `flutter --version` | Kiểm tra phiên bản Flutter |
+| `dart --version` | Kiểm tra phiên bản Dart |
+| `flutter doctor` | Kiểm tra môi trường |
+| `flutter doctor -v` | Kiểm tra chi tiết môi trường |
+| `flutter devices` | Kiểm tra thiết bị |
+| `flutter config` | Kiểm tra cấu hình Flutter |
+| `flutter analyze` | Kiểm tra mã nguồn |
+| `flutter pub deps` | Kiểm tra thư viện |
+| `flutter pub get` | Đồng bộ thư viện |
+| `flutter upgrade` | Cập nhật Flutter |
+Đây là những lệnh hữu ích để giảng viên hoặc thành viên nhóm kiểm tra môi trường và tình trạng dự án trước khi chạy ứng dụng.
