@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # todoapp
 
 A new Flutter project.
@@ -18,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 =======
 # N02_KTPM_LT5
 >>>>>>> 79f70fab6fd51575b81fb7c94ae3c2ad9b243468
+=======
+
+>>>>>>> c7355dcd1353867050a084447ee0834f5ddce89c
